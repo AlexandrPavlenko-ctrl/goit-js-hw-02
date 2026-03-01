@@ -1,9 +1,9 @@
-function formatMessage(message, maxLenght) {
-    let text = message.lenght;
-    if (text <= maxLenght) {
+function formatMessage(message, maxLength) {
+    let text = message.length;
+    if (text <= maxLength) {
         return message;
     } else {
-        return message.slice(0, maxLenght) + "...";
+        return message.slice(0, maxLength) + "...";
     }
 }
 
